@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas</title>
+    <!-- Estilos -->
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+      }
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- No entiendo muy bien la diferencia entre tabla simple y compleja -->
+    <!-- Tabla simple -->
+    <table>
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+        </tr>
+    </table>
+    <hr style="margin: 20px;">
+    <!-- Tabla compleja -->
+    <table>
+        <tr>
+            <th colspan="1">Links</th>
+            <th colspan="3">Matriz 3x3</th>
+            <th>-----------</th>
+            <th>Escalera</th>
+            <th>________</th>
+        </tr>
+        <tr>
+            <th><a href="">Link a algun lado</a></th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th rowspan="3">Escalon 3</th>
+        </tr>
+        <tr>
+            <th><a href="">Link a otro lado</a></th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th rowspan="2">Escalon 2</th>
+        </tr>
+        <tr>
+            <th><a href="">No llevan a ningun lado pero no se que poner <a href="https://www.youtube.com/watch?v=MYVZrdnEjhU" target=”_blank”>🥃</a></a></th>
+            <th>17</th>
+            <th>18</th>
+            <th>19</th>
+            <th rowspan="1">Escalon 1</th>
+        </tr>
+    </table>
+  </body>
+</html>
