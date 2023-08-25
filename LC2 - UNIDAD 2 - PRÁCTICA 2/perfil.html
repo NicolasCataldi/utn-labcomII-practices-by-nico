@@ -1,0 +1,72 @@
+<!-- En un archivo aparte, llamado perfil.html, crear la estructura básica de un
+documento HTML que servirá de página de perfil y datos personales. La misma debe
+incluir:
+ Un título (h1) descriptivo de la página.
+ Un formulario que agrupe la información personal que incluya:
+o Un campo de sólo lectura que tenga como valor “ESTUDIANTE”.
+o Un campo para el nombre completo.
+o Un campo para el email.
+o Un campo para la edad.
+5
+o Un seleccionable para la nacionalidad.
+o Un seleccionable para la condición laboral. Llenar con 4
+opciones: desempleado, en búsqueda laboral, trabajo part time, trabajo
+full time.
+ En el mismo formulario agregar una sección que agrupe la información de
+gustos personales que incluya:
+o Un campo de texto para gustos musicales.
+o Un seleccionable de comidas preferidas.
+o Un botón para enviar el formulario.
+o Un checkbox para recordar los datos del usuario. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+</head>
+<body style="background-color: #3B2829;">
+    
+    <nav style="border-bottom: solid #EAAF1E 2px;">
+
+        <a href="https://github.com/NicolasCataldi" target="_blank"><img src="assets/img/logo-circular.png" alt="" width="4.5%"></a>
+        <span style="font-family: Georgia, 'Times New Roman', Times, serif; color: #EAAF1E; margin-left: 60%;font-size: larger;">Contacto</span></a>
+        <span style="font-family: Georgia, 'Times New Roman', Times, serif; color: #EAAF1E; margin-left: 1%;font-size: larger;">Novedades</span>
+        <span style="font-family: Georgia, 'Times New Roman', Times, serif; color: #eab01eab; margin-left: 1%;font-size: larger;">Mi perfil</span>
+        <span style="font-family: Georgia, 'Times New Roman', Times, serif; color: #EAAF1E;font-size: larger ;margin-left: 1%;">Cerrar sesión</span>
+    </nav>
+    
+    <article style="margin-left: 8%;margin-right: 8%;margin-top: 4%;border: solid 2px #EAAF1E; border-radius: 9px;background-color: #B58C5B; min-height: 70vw;">
+        <img src="assets/img/gato.png" width="30%" alt="" style="margin-top: 2.5%;margin-left: 2.5%;">
+        <input type="text" placeholder="ESTUDIANTE" name="rol" readonly style="position: absolute;width: 20%; margin-left: 20%;margin-top: 10%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;text-align: center;">
+        <input type="text" placeholder="Nicolas Cataldi" name="nombre" readonly style="position: absolute;width: 20%; margin-left: 20%;margin-top: 13%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+        <input type="email" placeholder="nicolascataldi1@gmail.com" name="mail" readonly style="position: absolute;width: 20%; margin-left: 20%;margin-top: 16%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+        <input type="number" placeholder="Edad 21" name="edad" readonly style="position: absolute;width: 20%; margin-left: 20%;margin-top: 19%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+        <select name="region" style="position: absolute;width: 20.5%; margin-left: 20%;margin-top: 22%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+        <option>Argentina</option>
+        <option>Canada</option>
+        <option>El Congo</option>
+        </select>
+        <select name="laboral" style="position: absolute;width: 20.5%; margin-left: 20%;margin-top: 25%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+            <option>Desempleado</option>
+            <option>En búsqueda laboral</option>
+            <option>Trabajo part time</option>
+            <option>Trabajo full time</option>
+        </select>
+        <input type="text" placeholder="Gustos Musicales" name="rol" style="position: absolute;width: 20%; margin-left: 20%;margin-top: 29%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+        <select name="laboral" style="position: absolute;width: 20.5%; margin-left: 20%;margin-top: 32%;font-size: 3vh; border-radius: 6px; border-color: #3B2829;">
+            <option>Comida Favorita</option>
+            <option>Lasagna</option>
+            <option>Cuason</option>
+            <option>Milanesa</option>
+        </select>
+        <label for="recordar" style="position: absolute; margin-left: 22.5%; margin-top: 35.9%;font-family: Georgia, 'Times New Roman', Times, serif; color: #281A25;font-size: 2.8vh;text-decoration: underline;">Recordar mis datos</label>
+        <input type="checkbox" name="recordar" style="position: absolute; margin-left: 33.5%; margin-top: 36.2%;">
+        <button type="submit" style="position: absolute;margin-top: 35.8%;margin-left: 35.5%;">Enviar</button>
+
+        <p style="font-family: Georgia, 'Times New Roman', Times, serif; color: #281A25;font-size: 4vh;margin-left: 11%;text-decoration: underline;">Cambiar foto</p>
+    </article>
+
+</body>
+</html>
