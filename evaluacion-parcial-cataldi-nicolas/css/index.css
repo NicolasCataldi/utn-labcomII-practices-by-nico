@@ -1,0 +1,148 @@
+*{
+    font-family: Verdana;
+    color: rgb(71, 71, 71);
+    font-size: small;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+  }
+
+  h1{
+    font-size: 2em;
+  }
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    color: white;
+}
+
+.titleHeader{
+    color: white;
+    background-color: rgba(249, 231, 159, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.textHeader{
+    color: white;
+    background-color: rgba(249, 231, 159, 0.3);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.datos{
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.profile-picture {
+    /* Redondear la imagen y darle un tamaño maximo de 200px */
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.div-profile-picture{
+    width: 200px;
+    height: 200px;
+}
+
+
+.presentacion {
+    background-color: white;
+    margin: 2%;
+    color: rgb(92, 92, 92);
+    padding: 2%;
+    border-radius: 2em;
+    width: 60%;
+    text-align: center;
+}
+.presentacion p{
+    height: 40%;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.datos-personales {
+    background: #d1d0d0;
+    padding: 1%;
+
+}
+
+.barra-lateral{
+    background-color: rgb(253, 235, 208);
+}
+
+
+.title {
+    font-weight: bold;
+}
+
+.contenido {
+    padding: 2em;
+}
+
+.date {
+    color: gray;
+    font-size: small;
+}
+
+h3 {
+    background-color: rgb(183, 176, 189);
+    padding: 2px;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: rgb(60, 66, 95);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+  }
+  
+
+  a:hover {
+    color: white;
+  }
+
+  .boton-contacto{
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color:  rgb(160, 64, 0);
+  }
+  .boton-contacto:hover{
+    background-color: rgb(230,
+    126, 34);
+  }
+
+  .boton-contacto:active{
+    background-color: lightgreen;
+  }
+
+  .contenido h3{
+    background-color: rgb(241,196,15);
+    border-radius: 5px;
+    padding: 4px;
+  }
+
+

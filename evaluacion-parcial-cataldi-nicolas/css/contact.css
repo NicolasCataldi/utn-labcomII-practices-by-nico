@@ -1,0 +1,34 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    background-color: #f2f2f2;
+    margin: 20px 30%;
+    padding: 20px;
+}
+
+.formulario label{
+    width: 100%;
+    border-radius: 4px;
+}
+.formulario input{
+    width: 100%;
+    border: solid #CCC;
+    border-radius: 4px;
+    margin: 8px 0px;
+    padding: 12px 20px;
+}
+.boton-enviar{
+    background-color: rgb(160,64,0);
+    color: white;
+}
+.boton-enviar:hover{
+    background-color: rgb(220,118,51);
+}
+.input-mensaje{
+    height: 120px;
+}
+.input-mensaje:active{
+    background-color: lightgreen;
+}
